@@ -5,3 +5,16 @@ title: "Holy cow!"
 ### I have a webpage!
 
 And I can put all kinds of stuff on it!
+
+I can add additional text.
+
+```{r}
+
+
+```
+
+### Add some links
+
+I like [amazon](https://www.amazon.com)
+
+Directly to my [about page](about.html)
