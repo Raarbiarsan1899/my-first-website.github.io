@@ -8,15 +8,10 @@ And I can put all kinds of stuff on it!
 
 I can add additional text.
 
-```{r}
+### add webpage
 
-library(tidyverse)
+This is my test code chunk [code chunk](test_code.html)
 
-tibble(
- x = 1:10,
- y = x + 1
-)
-```
 
 ### Add some links
 

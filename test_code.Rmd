@@ -1,0 +1,20 @@
+---
+title: "test code chunk"
+author: 'Zanis Fang, UID: ZF2213'
+date: "10/18/2018"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+library(tidyverse)
+
+tibble(
+ x = 1:10,
+ y = x + 1
+)
+```

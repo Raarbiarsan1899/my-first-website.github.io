@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Zanis Fang, UID: ZF2213" />
 
+<meta name="date" content="2018-10-18" />
 
-<title></title>
+<title>test code chunk</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,6 +24,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -180,7 +185,9 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        
+        <li>
+  <a href="test_code.html">Code Chunk</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -210,14 +217,39 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">test code chunk</h1>
+<h4 class="author"><em>Zanis Fang, UID: ZF2213</em></h4>
+<h4 class="date"><em>10/18/2018</em></h4>
 
 </div>
 
 
-<div id="my-first-website.github.io" class="section level1">
-<h1>my-first-website.github.io</h1>
-<p>website test</p>
-</div>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.0.0.9000     ✔ purrr   0.2.5     
+## ✔ tibble  1.4.2          ✔ dplyr   0.7.6     
+## ✔ tidyr   0.8.1          ✔ stringr 1.3.1     
+## ✔ readr   1.1.1          ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>tibble(
+ x = 1:10,
+ y = x + 1
+)</code></pre>
+<pre><code>## # A tibble: 10 x 2
+##        x     y
+##    &lt;int&gt; &lt;dbl&gt;
+##  1     1     2
+##  2     2     3
+##  3     3     4
+##  4     4     5
+##  5     5     6
+##  6     6     7
+##  7     7     8
+##  8     8     9
+##  9     9    10
+## 10    10    11</code></pre>
 
 
 
