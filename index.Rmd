@@ -10,7 +10,12 @@ I can add additional text.
 
 ```{r}
 
+library(tidyverse)
 
+tibble(
+ x = 1:10,
+ y = x + 1
+)
 ```
 
 ### Add some links
