@@ -14,7 +14,8 @@ navbar:
   left:
     - text: "Code Chunk"
       href: test_code.html
+
       
 output:
   html_document:
-    theme: cosmo
+    theme: pulse
